@@ -18,7 +18,7 @@ jobs:
         uses: actions-cool/issues-helper@v3
         with:
           actions: 'remove-assignees'
-          token: ${{ secrets.FINE_TOKEN }}
+          token: ${{ secrets.COMPAT_21_0_0_PAT }}
           issue-number: ${{ github.event.issue.number }}
           assignees: ${{ github.event.comment.user.login }}
 
@@ -26,5 +26,5 @@ jobs:
         uses: actions-cool/issues-helper@v3
         with:
           actions: 'delete-comment'
-          token: ${{ secrets.FINE_TOKEN }}
+          token: ${{ secrets.COMPAT_21_0_0_PAT }}
           comment-id: ${{ github.event.comment.id }}
