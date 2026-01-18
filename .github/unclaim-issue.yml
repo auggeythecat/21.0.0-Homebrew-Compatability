@@ -1,0 +1,30 @@
+name: Unassign Issues on Unclaim
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  issues: write
+  repository-projects: read
+  pull-requests: read
+
+jobs:
+  unclaim-issue:
+    runs-on: ubuntu-latest
+    if: github.event.issue.pull_request == null && (startsWith(github.event.comment.body, '/unclaim') || startsWith(github.event.comment.body, '/unassign'))
+    steps:
+      - name: Unassign issue from commenter
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: 'remove-assignees'
+          token: ${{ secrets.FINE_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
+          assignees: ${{ github.event.comment.user.login }}
+
+      - name: Delete comment
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: 'delete-comment'
+          token: ${{ secrets.FINE_TOKEN }}
+          comment-id: ${{ github.event.comment.id }}

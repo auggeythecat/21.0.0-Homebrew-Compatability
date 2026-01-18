@@ -1,0 +1,50 @@
+name: Assign Issue on Claim
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  issues: write
+  repository-projects: read
+  pull-requests: read
+
+jobs:
+  claim-issue:
+    runs-on: ubuntu-latest
+    if: github.event.issue.pull_request == null && (startsWith(github.event.comment.body, '/claim') || startsWith(github.event.comment.body, '/assign'))
+    steps:
+      - name: Assign issue to commenter
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: 'add-assignees'
+          token: ${{ secrets.FINE_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
+          assignees: ${{ github.event.comment.user.login }}
+
+      - name: Delete comment
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: 'delete-comment'
+          token: ${{ secrets.FINE_TOKEN }}
+          comment-id: ${{ github.event.comment.id }}
+
+      - name: Check and warn about multi-assignment
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.FINE_TOKEN }}
+          script: |
+            const issueNumber = context.payload.issue.number;
+            const assignees = context.payload.issue.assignees;
+            const triggeringUser = context.payload.sender.login; // User who triggered the assignment
+
+            if (assignees.length > 0) {
+              const mentions = assignees.map(user => `@${user.login}`).join(' ');
+              const comment = `${mentions} @${triggeringUser} Warning: This issue is now assigned to more than one person! Please make sure you're not working on the same functions.`;
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                body: comment
+              });
+            }
