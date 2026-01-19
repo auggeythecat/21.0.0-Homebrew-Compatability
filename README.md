@@ -8,6 +8,8 @@ This can also be used as a master list. Feel free to open an issue with a new ap
 3. Work on it. Start a discussion on the issue, Add things to the projects folder or NOTES.md file
 4. There is currently not a good solution for finishing one. I guess just say its done and link an open source repo in the issue.
 
+I would prefer if it was built with docker so its accessable, but its not required.
+
 ## List of issues commands
 
 Command    | Alias     | Effect
