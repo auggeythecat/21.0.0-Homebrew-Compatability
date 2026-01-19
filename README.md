@@ -3,7 +3,7 @@ A large project that will track and hopefully update every single switch homebre
 This can also be used as a master list. Feel free to open an issue with a new app. (note: piracy related or closed source apps (tinfoil, dbi, etc) will removed)
 
 # Contributing
-1. Pick and app. Preferably one with the https://github.com/auggeythecat/21.0.0-Homebrew-Compatability/labels/Requested label.
+1. Pick an app. Preferably one with the https://github.com/auggeythecat/21.0.0-Homebrew-Compatability/labels/Requested label.
 2. Comment `/claim` to assign yourself to the issue.
 3. Work on it. Start a discussion on the issue, Add things to the projects folder or NOTES.md file
 4. There is currently not a good solution for finishing one. I guess just say its done and link an open source repo in the issue.
