@@ -1,0 +1,27 @@
+FROM devkitpro/devkita64:latest AS build
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN dkp-pacman -Syu --noconfirm \
+     switch-dev \
+     switch-bzip2 \
+     switch-freetype \
+     switch-glad \
+     switch-glm \
+     switch-libdrm_nouveau \
+     switch-libpng \
+     switch-mesa \
+     switch-pkg-config \
+     switch-sdl2 \
+     switch-zlib \
+     switch-portlibs
+
+RUN git clone --recurse-submodules https://github.com/minkcv/pinballnx.git
+
+WORKDIR /pinballnx
+
+RUN mkdir cmake-build && cd cmake-build && \
+    cmake -DPLATFORM_SWITCH=ON -DCMAKE_BUILD_TYPE=Release ../ && \
+    make pinball.nro -j$(nproc)
+
+  # todo: build output
