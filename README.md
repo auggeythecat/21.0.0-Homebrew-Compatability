@@ -31,5 +31,5 @@ uh, finish the todo section
 - [MonsterDruid1](https://github.com/MonsterDruide1/) whose actions I shamelessly stole from his [OdysseyDecompTracker](https://github.com/MonsterDruide1/OdysseyDecompTracker)
 - [ReSwitched](https://github.com/reswitched) / [Atmosphere-NX](https://github.com/atmosphere-NX/) team for exploits, custom firmware, and homebrew toolchains
 - [fortheusers](https://github.com/fortheusers) for their amazing homebrew app store(s)
-- Everyone who contributed or otherwised helped with the currently recompilation efforts including [this list](https://gbatemp.net/threads/preliminary-list-of-updated-homebrew-apps-and-tools-for-fw-21-0-0-ams-1-10-0-please-add-your-findings.677217/)
+- Everyone who contributed or otherwised helped with the currently recompilation efforts
 - And lastly, everyone who contributes to this repo!
