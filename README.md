@@ -1,7 +1,7 @@
 # 21.0.0-Homebrew-Compatability
-A large project that will track and hopefully update every single switch homebrew app and its compatibility with atmosphere 1.10.0+. Visit the [issues](https://github.com/auggeythecat/21.0.0-Homebrew-Compatability/issues) and [project board](https://github.com/users/auggeythecat/projects/3).
-This can also be used as a master list. Feel free to open an issue with a new app. (note: piracy related or closed source apps (tinfoil, dbi, etc) will removed) 
+A large project that will track and hopefully update every single switch homebrew app and its compatibility with atmosphere 1.10.0+. Visit the [issues](https://github.com/auggeythecat/21.0.0-Homebrew-Compatability/issues) and [project board](https://github.com/users/auggeythecat/projects/3). This can also be used as a master list. 
 
+Feel free to open an issue with a new app if it isn't already present. (note: piracy related or closed source apps (tinfoil, dbi, etc) will removed) 
 Also note that currently some apps are incorrect on this tracker. If you find one that is wrong, please notify me.
 # Contributing
 1. Pick an app. Preferably one with the https://github.com/auggeythecat/21.0.0-Homebrew-Compatability/labels/Requested label.
