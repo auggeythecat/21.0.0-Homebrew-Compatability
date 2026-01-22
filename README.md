@@ -7,7 +7,7 @@ Also note that currently some apps are incorrect on this tracker. If you find on
 1. Pick an app. Preferably one with the https://github.com/auggeythecat/21.0.0-Homebrew-Compatability/labels/Requested label.
 2. Comment `/claim` to assign yourself to the issue.
 3. Work on it. Start a discussion on the issue, Add things to the projects folder or NOTES.md file
-4. There is currently not a good solution for finishing one. I guess just say its done and link an open source repo in the issue.
+4. There is currently not a good solution for finishing one. I guess just say its done and link it and the code in the issue. (diff or patch files do work)
 
 I would prefer if it was built with docker so its accessable, but its not required.
 
