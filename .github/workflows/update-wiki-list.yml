@@ -20,16 +20,17 @@ jobs:
         id: generate
         run: |
           echo "# Welcome to the tracker!" > table_content.md
+          echo "## If the app you want isn't here, feel free to request it!" >> table_content.md
           echo "| App Name | Status | Download Link | Notes |" >> table_content.md
           echo "| :--- | :--- | :--- | :--- |" >> table_content.md
 
           jq -r '.[] | 
             
-            (if .type == "official" then "🟢 **Official**"
-             elif .type == "unofficial" then "🟡 **Unofficial**"
-             elif .type == "broken" then "🔴 **Broken**"
-             elif .type == "requested" then "🔵 **Requested**"
-             else "⚪ **Unknown**" end) as $status |
+            (if .type == "official" then "🟢&nbsp;**Official**"
+             elif .type == "unofficial" then "🟡&nbsp;**Unofficial**"
+             elif .type == "broken" then "🔴&nbsp;**Broken**"
+             elif .type == "requested" then "🔵&nbsp;**Requested**"
+             else "⚪&nbsp;**Unknown**" end) as $status |
 
             (if .type == "official" then "Supported since \(.min_version // "latest")."
              elif .type == "unofficial" then "Recompiled by \(.author // "unknown")."
