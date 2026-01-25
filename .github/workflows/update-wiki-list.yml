@@ -1,0 +1,81 @@
+name: Update Wiki App List
+
+on:
+  push:
+    paths:
+      - 'apps.json'
+  workflow_dispatch:
+
+jobs:
+  build-wiki-table:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Markdown Table
+        id: generate
+        run: |
+          # 1. Create the Table Header
+          echo "| App Name | Status | Download Link | Notes |" > table_content.md
+          echo "| :--- | :--- | :--- | :--- |" >> table_content.md
+
+          jq -r '.[] | 
+            
+            (if .type == "official" then "🟢 **Official**"
+             elif .type == "unofficial" then "🟡 **Unofficial**"
+             elif .type == "broken" then "🔴 **Broken**"
+             elif .type == "requested" then "🔵 **Requested**"
+             else "⚪ **Unknown**" end) as $status |
+
+            (if .type == "official" then "Updated since \(.min_version // "latest")."
+             elif .type == "unofficial" then "Recompiled by \(.author // "unknown")."
+             elif .type == "broken" then "This is not being worked on."
+             elif .type == "requested" then "This is requested / WIP."
+             else "" end) as $notes |
+
+            (if .repo == null or .repo == "" then "no source"
+             else
+               # Check if the repo string contains "github.com" or looks like "user/repo"
+               if (.repo | test("github.com")) then
+                 # It's a full GitHub URL -> Extract "user/repo" for the text
+                 "[\(.repo | sub("https?://(www\\.)?github\\.com/"; ""))](\(.repo))"
+               elif (.repo | test("^[^/]+/[^/]+$")) then
+                 # It's just "user/repo" -> Add github.com to the link
+                 "[\(.repo)](https://github.com/\(.repo))"
+               else
+                 # It's a generic URL -> Use the full link as text
+                 "[\(.repo)](\(.repo))"
+               end
+             end) as $link |
+
+            "| **\(.name)** | \($status) | \($link) | \($notes) |"
+          
+          ' apps.json >> table_content.md
+
+      - name: Checkout Wiki Repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository }}.wiki
+          path: wiki_repo
+
+      - name: Update and Push Wiki
+        run: |
+          cd wiki_repo
+          
+          git config user.name "Wiki-Updater-Bot"
+          git config user.email "actions@github.com"
+
+          mv ../table_content.md compat-list.md
+          
+          git add compat-list.md
+          
+          if git diff --staged --quiet; then
+            echo "No changes to the list detected."
+          else
+            git commit -m "Update App List from apps.json"
+            git push
+          fi
