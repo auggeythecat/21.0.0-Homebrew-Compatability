@@ -66,7 +66,7 @@
         "min_version": "v1.0.0"
     },
     {
-        "name": "name",
+        "name": "MissionControl",
         "type": "official",
         "repo": "https://github.com/ndeadly/MissionControl",
         "min_version": "v0.14.0"
@@ -428,7 +428,7 @@
         "author": "auggeythecat"
     },
     {
-        "name": "name",
+        "name": "sys-ftpd",
         "type": "unofficial",
         "repo": "https://github.com/auggeythecat/sys-ftpd-Recompiled",
         "author": "auggeythecat"
