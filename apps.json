@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Checkpoint",
+        "type": "official",
+        "repo": "www.github.com/BernardoGiordano/Checkpoint",
+        "min_version": "3.10.2"
+    },
+    {
+        "name": "SwitchWave",
+        "type": "unofficial",
+        "repo": "www.github.com/auggeythecat/SwitchWave",
+        "author": "auggiethecat"
+    }
+]
