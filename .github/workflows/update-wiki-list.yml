@@ -41,9 +41,9 @@ jobs:
              else
                # Check if the repo string contains "github.com" or looks like "user/repo"
                if (.repo | test("github.com")) then
-                 "[\(.repo | sub("https?://(www\\.)?github\\.com/"; ""))](\(.repo))"
+                 "[\(.repo | sub("https?://(www\\.)?github\\.com/"; ""))](\(.repo)/releases)"
                elif (.repo | test("^[^/]+/[^/]+$")) then
-                 "[\(.repo)](https://github.com/\(.repo))"
+                 "[\(.repo)](https://github.com/\(.repo)/releases)"
                else
                  "[\(.repo)](\(.repo))"
                end
