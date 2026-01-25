@@ -1,14 +1,556 @@
 [
     {
+        "name": "Amiigo",
+        "type": "official",
+        "repo": "https://github.com/CompSciOrBust/Amiigo/",
+        "min_version": "2.4.0"
+    },
+    {
+        "name": "BlockamokRemix ",
+        "type": "official",
+        "repo": "https://github.com/Mode8fx/blockamok",
+        "min_version": "v1.21"
+    },
+    {
         "name": "Checkpoint",
         "type": "official",
-        "repo": "https://www.github.com/BernardoGiordano/Checkpoint",
+        "repo": "https://github.com/BernardoGiordano/Checkpoint",
         "min_version": "3.10.2"
+    },
+    {
+        "name": "EdiZonOverlay",
+        "type": "official",
+        "repo": "https://github.com/proferabg/EdiZon-Overlay",
+        "min_version": "v1.0.14"
+    },
+    {
+        "name": "EdiZonSE",
+        "type": "official",
+        "repo": "https://github.com/tomvita/EdiZon-SE",
+        "min_version": "3.8.37a"
+    },
+    {
+        "name": "FPSLocker",
+        "type": "official",
+        "repo": "https://github.com/masagrator/FPSLocker",
+        "min_version": "3.1.0"
+    },
+    {
+        "name": "FireplaceNX",
+        "type": "official",
+        "repo": "https://github.com/ELY3M/Fireplace-NX",
+        "min_version": "#3"
+    },
+    {
+        "name": "Goldleaf",
+        "type": "official",
+        "repo": "https://github.com/XorTroll/Goldleaf",
+        "min_version": "1.2.0 "
+    },
+    {
+        "name": "IRSwitch",
+        "type": "official",
+        "repo": "https://github.com/tech-will/IR-Switch",
+        "min_version": "v1.00"
+    },
+    {
+        "name": "KeyX",
+        "type": "official",
+        "repo": "https://github.com/TOM-BadEN/KeyX",
+        "min_version": "v1.2.6"
+    },
+    {
+        "name": "LaDeuda",
+        "type": "official",
+        "repo": "https://github.com/soykhaler/LaDeuda",
+        "min_version": "v1.0.0"
+    },
+    {
+        "name": "name",
+        "type": "official",
+        "repo": "https://github.com/ndeadly/MissionControl",
+        "min_version": "v0.14.0"
+    },
+    {
+        "name": "Moonlight Switch",
+        "type": "official",
+        "repo": "https://github.com/XITRIX/Moonlight-Switch",
+        "min_version": "v1.3.4"
+    },
+    {
+        "name": "NX-Update-Checker",
+        "type": "official",
+        "repo": "https://github.com/16BitWonder/NX-Update-Checker",
+        "min_version": "v1.5.4.1"
+    },
+    {
+        "name": "NX-Fetch",
+        "type": "official",
+        "repo": "https://github.com/Xc987/NX-Fetch/",
+        "min_version": "1.4.0"
+    },
+    {
+        "name": "nxmp",
+        "type": "official",
+        "repo": "https://github.com/proconsule/nxmp",
+        "min_version": "0.9.3"
+    },
+    {
+        "name": "NX-Mod-Manager",
+        "type": "official",
+        "repo": "https://github.com/TOM-BadEN/NX-Mod-Manager",
+        "min_version": "v2.27"
+    },
+    {
+        "name": "NX-Save-Sync",
+        "type": "official",
+        "repo": "https://github.com/Xc987/NX-Save-Sync",
+        "min_version": "2.3.0"
+    },
+    {
+        "name": "SwitchThemeInjector",
+        "type": "official",
+        "repo": "https://github.com/exelix11/SwitchThemeInjector",
+        "min_version": "4.8.3"
+    },
+    {
+        "name": "nzportable",
+        "type": "official",
+        "repo": "https://github.com/nzp-team/nzportable",
+        "min_version": "2.0.0"
+    },
+    {
+        "name": "Neumann",
+        "type": "official",
+        "repo": "https://github.com/turtle-insect/Neumann/",
+        "min_version": "0.0.30-2"
+    },
+    {
+        "name": "NooDS",
+        "type": "official",
+        "repo": "https://github.com/Hydr8gon/NooDS",
+        "min_version": "Rolling Release"
+    },
+    {
+        "name": "ONScripter-NX",
+        "type": "official",
+        "repo": "https://github.com/clamintus/ONScripter-NX",
+        "min_version": "0.3.1"
+    },
+    {
+        "name": "QuickNTP",
+        "type": "official",
+        "repo": "https://github.com/nedex/QuickNTP",
+        "min_version": "1.6.0"
+    },
+    {
+        "name": "RingRacers",
+        "type": "official",
+        "repo": "https://github.com/Craftyawesome/RingRacers-Switch",
+        "min_version": "2.4 r2"
+    },
+    {
+        "name": "SPRV",
+        "type": "official",
+        "repo": "https://github.com/m4st3rP/Switch-Play-Statistics-Viewer",
+        "min_version": "5"
+    },
+    {
+        "name": "SRB2Kart",
+        "type": "official",
+        "repo": "https://github.com/Craftyawesome/Kart-Public",
+        "min_version": "v1.6 r8"
+    },
+    {
+        "name": "SaltyNX",
+        "type": "official",
+        "repo": "https://github.com/masagrator/SaltyNX",
+        "min_version": "1.6.0"
+    },
+    {
+        "name": "SaltyNX-Tool",
+        "type": "official",
+        "repo": "https://github.com/masagrator/SaltyNX-Tool",
+        "min_version": "1.1.1"
+    },
+    {
+        "name": "ScratchEverywhere",
+        "type": "official",
+        "repo": "https://github.com/ScratchEverywhere/ScratchEverywhere/",
+        "min_version": "29"
+    },
+    {
+        "name": "ShoWiFi",
+        "type": "official",
+        "repo": "https://github.com/vgmoose/ShoWiFi",
+        "min_version": "1.2"
+    },
+    {
+        "name": "Simple Mod Alchemist",
+        "type": "official",
+        "repo": "https://github.com/gtiersma/Simple_Mod_Alchemist",
+        "min_version": "v1.0.1"
+    },
+    {
+        "name": "Simple Mod Downloader",
+        "type": "official",
+        "repo": "https://github.com/PoloNX/SimpleModDownloader",
+        "min_version": "2.3.0"
+    },
+    {
+        "name": "Status Monitor Overlay",
+        "type": "official",
+        "repo": "https://github.com/masagrator/Status-Monitor-Overlay",
+        "min_version": "1.3.2"
+    },
+    {
+        "name": "SuDokuL",
+        "type": "official",
+        "repo": "https://github.com/Mode8fx/SuDokuL",
+        "min_version": "v1.43"
+    },
+    {
+        "name": "Switch_90DNS_tester",
+        "type": "official",
+        "repo": "https://github.com/meganukebmp/Switch_90DNS_tester",
+        "min_version": "v1.0.4"
+    },
+    {
+        "name": "SwitchFin",
+        "type": "official",
+        "repo": "https://github.com/dragonflylee/switchfin",
+        "min_version": "0.7.7"
+    },
+    {
+        "name": "SysDVR",
+        "type": "official",
+        "repo": "https://github.com/exelix11/SysDVR",
+        "min_version": "6.2.2"
+    },
+    {
+        "name": "Tetris-Overlay",
+        "type": "official",
+        "repo": "https://github.com/ppkantorski/Tetris-Overlay",
+        "min_version": "0.4.1"
+    },
+    {
+        "name": "Themezer NX",
+        "type": "official",
+        "repo": "https://github.com/suchmememanyskill/themezer-nx",
+        "min_version": "2.0.3"
+    },
+    {
+        "name": "Trogdor Reburninated",
+        "type": "official",
+        "repo": "https://github.com/Mode8fx/Trogdor-Reburninated",
+        "min_version": "v2.32"
+    },
+    {
+        "name": "Tsukihime",
+        "type": "official",
+        "repo": "https://github.com/clamintus/ONScripter-NX",
+        "min_version": "0.3.1"
+    },
+    {
+        "name": "Turnips",
+        "type": "official",
+        "repo": "https://github.com/averne/Turnips",
+        "min_version": "v1.7.5"
+    },
+    {
+        "name": "Ultrahand Overlay",
+        "type": "official",
+        "repo": "https://github.com/ppkantorski/Ultrahand-Overlay",
+        "min_version": "2.18"
+    },
+    {
+        "name": "Warnel Chawpiovs",
+        "type": "official",
+        "repo": "https://github.com/frwololo/warnel-chawpiovs",
+        "min_version": "v0.1"
+    },
+    {
+        "name": "emuiibo",
+        "type": "official",
+        "repo": "https://github.com/XorTroll/emuiibo",
+        "min_version": "1.1.2"
+    },
+    {
+        "name": "fastCFWswitch",
+        "type": "official",
+        "repo": "https://github.com/Hartie95/fastCFWswitch",
+        "min_version": "v1.3.2"
+    },
+    {
+        "name": "ftpd",
+        "type": "official",
+        "repo": "https://github.com/mtheall/ftpd",
+        "min_version": "v3.2.1"
+    },
+    {
+        "name": "nxdumptool",
+        "type": "official",
+        "repo": "https://github.com/DarkMatterCore/nxdumptool",
+        "min_version": "rewrite"
+    },
+    {
+        "name": "JKSV",
+        "type": "official",
+        "repo": "https://github.com/J-D-K/JKSV",
+        "min_version": "11/16/2025"
+    },
+    {
+        "name": "ldn_mitm",
+        "type": "official",
+        "repo": "https://github.com/DefenderOfHyrule/ldn_mitm",
+        "min_version": "v1.20.2"
+    },
+    {
+        "name": "mgba",
+        "type": "official",
+        "repo": "https://github.com/mgba-emu/mgba/",
+        "min_version": "0.10.5"
+    },
+    {
+        "name": "MilkyTrackerNX",
+        "type": "official",
+        "repo": "https://github.com/retronx-team/MilkyTrackerNX/",
+        "min_version": "v1.2.0-nx6"
+    },
+    {
+        "name": "nso-icon-tool",
+        "type": "official",
+        "repo": "https://github.com/dslatt/nso-icon-tool",
+        "min_version": "v0.4.5"
+    },
+    {
+        "name": "nx-locale-switcher",
+        "type": "official",
+        "repo": "https://github.com/HamletDuFromage/nx-locale-switcher",
+        "min_version": "1.1.4"
+    },
+    {
+        "name": "pemu",
+        "type": "official",
+        "repo": "https://github.com/Cpasjuste/pemu",
+        "min_version": "7.0"
+    },
+    {
+        "name": "pkDex",
+        "type": "official",
+        "repo": "https://github.com/Insektaure/pkDex",
+        "min_version": "v1.5.2"
+    },
+    {
+        "name": "sonicroboblast2",
+        "type": "official",
+        "repo": "https://github.com/Craftyawesome/SRB2",
+        "min_version": "1.3.6 r2"
+    },
+    {
+        "name": "stepmania-nx",
+        "type": "official",
+        "repo": "https://github.com/retronx-team/stepmania-nx",
+        "min_version": "v5.1-nx3"
+    },
+    {
+        "name": "supermariowar-nx",
+        "type": "official",
+        "repo": "https://github.com/retronx-team/supermariowar-nx",
+        "min_version": "2.0.0-nx5"
+    },
+    {
+        "name": "switch-time",
+        "type": "official",
+        "repo": "https://github.com/3096/switch-time",
+        "min_version": "0.1.6"
+    },
+    {
+        "name": "NXInput",
+        "type": "official",
+        "repo": "https://github.com/Vins98/NXInput",
+        "min_version": "1.0.0"
+    },
+    {
+        "name": "sys-tune",
+        "type": "official",
+        "repo": "https://github.com/HookedBehemoth/sys-tune",
+        "min_version": "2.1.0-beta.1"
+    },
+    {
+        "name": "sys-con",
+        "type": "official",
+        "repo": "https://github.com/o0Zz/sys-con",
+        "min_version": "v1.6.0"
+    },
+    {
+        "name": "sysdvr-overlay",
+        "type": "official",
+        "repo": "https://github.com/Hartie95/sysdvr-overlay",
+        "min_version": "6.2.2"
+    },
+    {
+        "name": "uLaunch",
+        "type": "official",
+        "repo": "https://github.com/XorTroll/uLaunch",
+        "min_version": "1.2.2"
+    },
+    {
+        "name": "wiliwili",
+        "type": "official",
+        "repo": "https://github.com/xfangfang/wiliwili",
+        "min_version": "v1.5.3"
+    },
+    
+    
+    {
+        "name": "Tesla-Menu",
+        "type": "unofficial",
+        "repo": "https://github.com/DefenderOfHyrule/Tesla-Menu",
+        "author": "DefenderOfHyrule"
+    },
+    {
+        "name": "nx-ovlloader",
+        "type": "unofficial",
+        "repo": "https://github.com/DefenderOfHyrule/nx-ovlloader",
+        "author": "DefenderOfHyrule"
+    },
+    {
+        "name": "Fallout 1 CE ",
+        "type": "unofficial",
+        "repo": "https://github.com/auggeythecat/fallout-ce-switch---Recompiled",
+        "author": "auggiethecat"
+    },
+    {
+        "name": "uae4all2",
+        "type": "unofficial",
+        "repo": "https://github.com/auggeythecat/uae4all2-Recompiled",
+        "author": "auggeythecat"
+    },
+    {
+        "name": "name",
+        "type": "unofficial",
+        "repo": "https://github.com/auggeythecat/sys-ftpd-Recompiled",
+        "author": "auggeythecat"
+    },
+    {
+        "name": "SwitchIdent",
+        "type": "unofficial",
+        "repo": "https://github.com/ELY3M/SwitchIdent",
+        "author": "ELY3M"
+    },
+    {
+        "name": "ovl-sysmodules",
+        "type": "unofficial",
+        "repo": "https://github.com/exploitz86/ovl-sysmodules",
+        "author": "exploitz86"
+    },
+    {
+        "name": "ipswitch",
+        "type": "unofficial",
+        "repo": "https://github.com/StevensND/ipswitch",
+        "author": "StevensND"
+    },
+    {
+        "name": "ftpsrv",
+        "type": "unofficial",
+        "repo": "https://github.com/ELY3M/ftpsrv",
+        "author": "ELY3M"
+    },
+    {
+        "name": "eBookReaderSwitch",
+        "type": "unofficial",
+        "repo": "https://github.com/DefenderOfHyrule/eBookReaderSwitch",
+        "author": "DefenderOfHyrule"
+    },
+    {
+        "name": "botw-unexplored",
+        "type": "unofficial",
+        "repo": "https://github.com/DefenderOfHyrule/botw-unexplored",
+        "author": "DefenderOfHyrule"
+    },
+    {
+        "name": "totk-unexplored",
+        "type": "unofficial",
+        "repo": "https://github.com/DefenderOfHyrule/totk-unexplored/",
+        "author": "DefenderOfHyrule"
+    },
+    {
+        "name": "hb-appstore",
+        "type": "unofficial",
+        "repo": "https://github.com/DefenderOfHyrule/hb-appstore",
+        "author": "DefenderOfHyrule"
+    },
+    {
+        "name": "TsVitch",
+        "type": "unofficial",
+        "repo": "https://github.com/giovannimirulla/TsVitch",
+        "author": "giovannimirulla"
     },
     {
         "name": "SwitchWave",
         "type": "unofficial",
         "repo": "https://www.github.com/auggeythecat/SwitchWave",
         "author": "auggiethecat"
+    },
+    {
+        "name": "SimpleModManager",
+        "type": "unofficial",
+        "repo": "https://github.com/DefenderOfHyrule/SimpleModManager",
+        "author": "DefenderOfHyrule"
+    },
+    {
+        "name": "PowerToolsNX",
+        "type": "unofficial",
+        "repo": "https://github.com/ELY3M/PowerToolsNX---modded-by-ELY-M",
+        "author": "ELY3M"
+    },
+    {
+        "name": "NXGallery",
+        "type": "unofficial",
+        "repo": "https://github.com/DefenderOfHyrule/NXGallery",
+        "author": "DefenderOfHyrule"
+    },
+    {
+        "name": "NX-Shell",
+        "type": "unofficial",
+        "repo": "https://github.com/DefenderOfHyrule/NX-Shell",
+        "author": "DefenderOfHyrule"
+    },
+    {
+        "name": "N-Xplorer",
+        "type": "unofficial",
+        "repo": "https://github.com/Craftyawesome/N-Xplorer",
+        "author": "Craftyawesome"
+    },
+    {
+        "name": "Kart-Public",
+        "type": "unofficial",
+        "repo": "https://github.com/Craftyawesome/Kart-Public",
+        "author": "Craftyawesome"
+    },
+    {
+        "name": "EmuMmcConfig",
+        "type": "unofficial",
+        "repo": "https://github.com/marco-calautti/EmuMmcConfig",
+        "author": "marco-calautti"
+    },
+    {
+        "name": "CaptureSight",
+        "type": "unofficial",
+        "repo": "https://github.com/Insektaure/CaptureSight",
+        "author": "Insektaure"
+    },
+    {
+        "name": "AmiiboGenerator",
+        "type": "unofficial",
+        "repo": "https://github.com/yusufakg/AmiiboGenerator",
+        "author": "yusufakg"
+    },
+    {
+        "name": "2Planes_SWITCH",
+        "type": "unofficial",
+        "repo": "https://github.com/Leerz/2Planes_SWITCH",
+        "author": "Leerz"
     }
 ]
