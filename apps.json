@@ -1,5 +1,11 @@
 [
     {
+        "name": "Retroarch",
+        "type": "official",
+        "repo": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/",
+        "min_version": "nightly"
+    },
+    {
         "name": "Amiigo",
         "type": "official",
         "repo": "https://github.com/CompSciOrBust/Amiigo/",
