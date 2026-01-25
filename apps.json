@@ -6,7 +6,7 @@
         "min_version": "2.4.0"
     },
     {
-        "name": "BlockamokRemix ",
+        "name": "BlockamokRemix",
         "type": "official",
         "repo": "https://github.com/Mode8fx/blockamok",
         "min_version": "v1.21"
@@ -416,7 +416,7 @@
         "author": "DefenderOfHyrule"
     },
     {
-        "name": "Fallout 1 CE ",
+        "name": "Fallout 1 CE",
         "type": "unofficial",
         "repo": "https://github.com/auggeythecat/fallout-ce-switch---Recompiled",
         "author": "auggiethecat"
