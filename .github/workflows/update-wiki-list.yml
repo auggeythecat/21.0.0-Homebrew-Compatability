@@ -19,8 +19,8 @@ jobs:
       - name: Generate Markdown Table
         id: generate
         run: |
-          # 1. Create the Table Header
-          echo "| App Name | Status | Download Link | Notes |" > table_content.md
+          echo "# Welcome to the tracker!" > table_content.md
+          echo "| App Name | Status | Download Link | Notes |" >> table_content.md
           echo "| :--- | :--- | :--- | :--- |" >> table_content.md
 
           jq -r '.[] | 
@@ -31,7 +31,7 @@ jobs:
              elif .type == "requested" then "🔵 **Requested**"
              else "⚪ **Unknown**" end) as $status |
 
-            (if .type == "official" then "Updated since \(.min_version // "latest")."
+            (if .type == "official" then "Supported since \(.min_version // "latest")."
              elif .type == "unofficial" then "Recompiled by \(.author // "unknown")."
              elif .type == "broken" then "This is not being worked on."
              elif .type == "requested" then "This is requested / WIP."
@@ -41,13 +41,10 @@ jobs:
              else
                # Check if the repo string contains "github.com" or looks like "user/repo"
                if (.repo | test("github.com")) then
-                 # It's a full GitHub URL -> Extract "user/repo" for the text
                  "[\(.repo | sub("https?://(www\\.)?github\\.com/"; ""))](\(.repo))"
                elif (.repo | test("^[^/]+/[^/]+$")) then
-                 # It's just "user/repo" -> Add github.com to the link
                  "[\(.repo)](https://github.com/\(.repo))"
                else
-                 # It's a generic URL -> Use the full link as text
                  "[\(.repo)](\(.repo))"
                end
              end) as $link |
