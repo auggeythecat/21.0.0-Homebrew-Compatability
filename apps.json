@@ -390,6 +390,12 @@
         "min_version": "v1.6.0"
     },
     {
+        "name": "sys-clk",
+        "type": "official",
+        "repo": "https://github.com/retronx-team/sys-clk/",
+        "min_version": "2.0.1"
+    },
+    {
         "name": "sysdvr-overlay",
         "type": "official",
         "repo": "https://github.com/Hartie95/sysdvr-overlay",
