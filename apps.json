@@ -564,5 +564,11 @@
         "type": "unofficial",
         "repo": "https://github.com/Leerz/2Planes_SWITCH",
         "author": "Leerz"
+    },
+    {
+        "name": "MasterVolume",
+        "type": "unofficial",
+        "repo": "https://github.com/auggeythecat/MasterVolume_recomp",
+        "author": "auggiethecat"
     }
 ]
