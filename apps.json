@@ -413,6 +413,12 @@
         "repo": "https://github.com/xfangfang/wiliwili",
         "min_version": "v1.5.3"
     },
+    {
+        "name": "2ship2harkinian",
+        "type": "official",
+        "repo": "https://github.com/HarbourMasters/2ship2harkinian",
+        "min_version": "Mion Charlie 3.0.2"
+    },
     
     
     {
