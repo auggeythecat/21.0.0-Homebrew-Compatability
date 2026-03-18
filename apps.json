@@ -228,6 +228,13 @@
         "min_version": "v1.5.4.1"
     },
     {
+        "name": "odyssey-downgrade",
+        "type": "official",
+        "repo": "https://github.com/Istador/odyssey-downgrade/",
+        "min_version": "v2.0.5"
+        
+    },
+    {
         "name": "ONScripter-NX",
         "type": "official",
         "repo": "https://github.com/clamintus/ONScripter-NX",
