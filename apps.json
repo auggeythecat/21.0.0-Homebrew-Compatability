@@ -571,6 +571,12 @@
         "author": "Craftyawesome"
     },
     {
+        "name": "NX-FanControl-recomp",
+        "type": "unofficial",
+        "repo": "https://github.com/auggeythecat/NX-FanControl-recomp",
+        "author": "auggeythecat"
+    },
+    {
         "name": "NX-Shell",
         "type": "unofficial",
         "repo": "https://github.com/DefenderOfHyrule/NX-Shell",
