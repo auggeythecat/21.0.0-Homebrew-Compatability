@@ -553,6 +553,12 @@
         "author": "auggiethecat"
     },
     {
+        "name": "MelonDS",
+        "type": "unofficial",
+        "repo": "https://github.com/DefenderOfHyrule/melonDS/",
+        "author": "DefenderOfHyrule"
+    },
+    {
         "name": "NXGallery",
         "type": "unofficial",
         "repo": "https://github.com/DefenderOfHyrule/NXGallery",
