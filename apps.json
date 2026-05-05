@@ -138,6 +138,12 @@
         "min_version": "v1.2.0-nx6"
     },
     {
+        "name": "MiiPort",
+        "type": "official",
+        "repo": "https://github.com/Genwald/MiiPort",
+        "min_version": "0.1.2"
+    },
+    {
         "name": "Mission Control",
         "type": "official",
         "repo": "https://github.com/ndeadly/MissionControl",
@@ -535,6 +541,12 @@
         "author": "DefenderOfHyrule"
     },
     {
+        "name": "Homebrew Details",
+        "type": "unofficial",
+        "repo": "https://github.com/auggeythecat/Homebrew-Details--recomp",
+        "author": "auggeythecat"
+    },
+    {
         "name": "IPSwitch",
         "type": "unofficial",
         "repo": "https://github.com/StevensND/ipswitch",
@@ -547,6 +559,12 @@
         "author": "CommonLeap"
     },
     {
+        "name": "lennytube",
+        "type": "unofficial",
+        "repo": "https://github.com/auggeythecat/lennytube--recomp/",
+        "author": "auggeythecat"
+    },
+    {
         "name": "MasterVolume",
         "type": "unofficial",
         "repo": "https://github.com/auggeythecat/MasterVolume_recomp",
@@ -556,18 +574,6 @@
         "name": "MelonDS",
         "type": "unofficial",
         "repo": "https://github.com/DefenderOfHyrule/melonDS/",
-        "author": "DefenderOfHyrule"
-    },
-    {
-        "name": "NXGallery",
-        "type": "unofficial",
-        "repo": "https://github.com/DefenderOfHyrule/NXGallery",
-        "author": "DefenderOfHyrule"
-    },
-    {
-        "name": "nx-ovlloader",
-        "type": "unofficial",
-        "repo": "https://github.com/DefenderOfHyrule/nx-ovlloader",
         "author": "DefenderOfHyrule"
     },
     {
@@ -583,9 +589,27 @@
         "author": "auggeythecat"
     },
     {
+        "name": "nx-ovlloader",
+        "type": "unofficial",
+        "repo": "https://github.com/DefenderOfHyrule/nx-ovlloader",
+        "author": "DefenderOfHyrule"
+    },
+    {
         "name": "NX-Shell",
         "type": "unofficial",
         "repo": "https://github.com/DefenderOfHyrule/NX-Shell",
+        "author": "DefenderOfHyrule"
+    },
+    {
+        "name": "NX-VVVVVV",
+        "type": "unofficial",
+        "repo": "https://github.com/auggeythecat/NX-VVVVVV--recomp",
+        "author": "auggeythecat"
+    },
+    {
+        "name": "NXGallery",
+        "type": "unofficial",
+        "repo": "https://github.com/DefenderOfHyrule/NXGallery",
         "author": "DefenderOfHyrule"
     },
     {
